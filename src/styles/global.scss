@@ -1,0 +1,18 @@
+  @import "./variables/index.scss";
+
+
+  h1 {
+    color: brown;
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  button {
+    color: $secondary;
+    background-color: $light;
+  }
+
+  .reverse {
+    color: orange;
+    background-color: $primary;
+  }
