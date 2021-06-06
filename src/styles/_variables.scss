@@ -1,0 +1,20 @@
+/*
+Default Bootstrap Color Variables
+
+Any Bootstrap variable I want access to throughout my app must be in this file,
+even if I don't change the default value. This is so the preprocessor can provide it
+everywhere in the app.
+*/
+
+@import './_defaultValues';
+
+/*
+Customized from:
+
+Christmas Red Template
+http://www.templatemo.com/preview/templatemo_273_christmas_red
+*/
+
+$body-color: $gray-800;
+//$font-family-sans-serif: 	Tahoma, Geneva, sans-serif;
+

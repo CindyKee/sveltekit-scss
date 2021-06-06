@@ -19,7 +19,7 @@ const config = {
 				// svelte-preprocess automatically adds it to `includePaths`
 				// if none is defined.
 				// This allows us to use the variables in our components
-				prependData: `@import 'src/styles/variables/index.scss';`,
+				prependData: `@import 'src/styles/_variables.scss';`,
 				// Docs say it is faster for Dart Sass which I am using
 				// https://github.com/sveltejs/svelte-preprocess/blob/main/docs/preprocessing.md#scss-sass
 				renderSync: true,
