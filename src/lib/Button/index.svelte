@@ -1,11 +1,11 @@
-<button>Click me!</button>
+<button class="reverse">Click me!</button>
 
 <!-- This works by itself -->
-<style lang="scss">
-  @import 'src/styles/variables/index.scss';
 
+<style lang="scss">
   button {
-    color: $primary;
+    //color: $primary;
+    //background-color: $secondary;
     font-size: 2rem;
     font-weight: bold;
   }
