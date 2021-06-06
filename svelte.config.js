@@ -7,6 +7,13 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({
+			// defaults: {
+			//	// Remove the need to add the `lang=` tag for each type.
+			//	// Not recommended because not all tooling understands this
+			// 	style: 'scss'
+			//	script: 'typescript',
+			//	markup: 'html'
+			// },
 			scss: {
 				// We can use a path relative to the root because
 				// svelte-preprocess automatically adds it to `includePaths`
@@ -16,19 +23,6 @@ const config = {
 				outputStyle: 'compressed'
 			}
 		}),
-		//preprocess({
-			// defaults: {
-			// 	style: 'scss'
-			// },
-			// scss: {
-			// 	// We can use a path relative to the root because
-			// 	// svelte-preprocess automatically adds it to `includePaths`
-			// 	// if none is defined.
-			// 	// This allows us to use the variables in our components
-			// 	prependData: `@import '/src/styles/variables/index.scss';`,
-			// 	outputStyle: 'compressed',
-			// }
-		//}),
 		scss(),
 	],
 
