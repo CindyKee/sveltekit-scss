@@ -20,6 +20,9 @@ const config = {
 				// if none is defined.
 				// This allows us to use the variables in our components
 				prependData: `@import 'src/styles/variables/index.scss';`,
+				// Docs say it is faster for Dart Sass which I am using
+				// https://github.com/sveltejs/svelte-preprocess/blob/main/docs/preprocessing.md#scss-sass
+				renderSync: true,
 				outputStyle: 'compressed'
 			}
 		}),
