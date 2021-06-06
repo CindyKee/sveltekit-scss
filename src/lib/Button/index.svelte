@@ -1,11 +1,11 @@
 <button class="reverse">Click me!</button>
 
-<!-- This works by itself -->
-
 <style lang="scss">
   button {
-    //color: $primary;
+    // Example of using global SCSS variables to override styles
+    color: $warning;
     //background-color: $secondary;
+
     font-size: 2rem;
     font-weight: bold;
   }
