@@ -11,6 +11,10 @@ _I hope that publishing this to GitHub might help others wanting to use SCSS in 
 
 ---
 
+_**Update 2021-06-06:** Added Bootstrap 5 customized with my variable overrides. These variables are available throughout the entire app for components styling._
+
+---
+
 
 # create-svelte
 
