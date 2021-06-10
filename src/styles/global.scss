@@ -10,7 +10,9 @@
 
 // My customizations
 body {
-  background-position: top;
-  background-repeat: repeat-x;
-  background-image: url('/images/templatemo_wrapper.jpg');
+  background: {
+    position: top;
+    repeat: repeat-x;
+    image: url('/images/templatemo_wrapper.jpg');
+  }
 }

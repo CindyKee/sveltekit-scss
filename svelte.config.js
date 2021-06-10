@@ -27,7 +27,9 @@ const config = {
 				outputStyle: 'compressed'
 			}
 		}),
-		scss(),
+		// Since we have scss processing in the preprocess function above, we don't need this here.
+		// If we remove the prependData/preprocessor above, use this instead.
+		//scss(),
 	],
 
 	kit: {
