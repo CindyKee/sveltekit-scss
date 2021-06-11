@@ -18,7 +18,7 @@
 
 <div class="b-example-divider" />
 
-<style lang="scss">
+<style>
 
   .hero-bg {
     background-image: url(images/templatemo_body.jpg);
