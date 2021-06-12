@@ -22,7 +22,7 @@
 <style>
 
   .hero-bg {
-    background-image: url(images/templatemo_body.jpg);
+    background-image: url('/images/templatemo_body.jpg');
   }
 
   .b-example-divider {
