@@ -1,6 +1,8 @@
 import sveltePreprocess from 'svelte-preprocess'
 import path from 'path'
+import adapter from '@sveltejs/adapter-static'
 //import scss from 'svelte-preprocess'
+//import node from '@sveltejs/adapter-node'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -29,7 +31,7 @@ const config = {
 				renderSync: true,
 
 				// Dart Sass recognizes 'expanded' and 'compressed'
-				outputStyle: 'compressed'
+				outputStyle: 'expanded'
 			}
 		}),
 
@@ -41,6 +43,12 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
+
+		// This is the static adapter
+		adapter: adapter(),
+
+		// This is the node adapter
+		//adapter: node(),
 
 		vite: {
 			resolve: {
